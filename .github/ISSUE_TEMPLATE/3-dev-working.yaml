@@ -27,15 +27,11 @@ body:
     attributes:
       label: QA info
       value:
-        App
-        ---
-        App info and build
+        App – App info and build
         
-        BE
-        ---
-        DB changes and migration guideline
+        BE – DB changes and migration guideline
                 
-        Endpoint changes and migration guideline
+        BE – Endpoint changes and migration guideline
         
     validations:
       required: false
