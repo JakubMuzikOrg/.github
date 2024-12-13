@@ -43,7 +43,15 @@ body:
         
     validations:
       required: false
-
+      
+  - type: textarea
+    id: log-output
+    attributes:
+      label: Log output
+      placeholder: Add logs..
+    validations:
+      required: false
+      
   - type: textarea
     id: acceptance-criteria
     attributes:
