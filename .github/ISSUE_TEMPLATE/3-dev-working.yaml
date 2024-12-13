@@ -29,3 +29,11 @@ body:
       placeholder: Add acceptance criteria..
     validations:
       required: false
+
+  - type: textarea
+    id: qa-info
+    attributes:
+      label: QA info
+      placeholder: Add acceptance criteria..
+    validations:
+      required: false
