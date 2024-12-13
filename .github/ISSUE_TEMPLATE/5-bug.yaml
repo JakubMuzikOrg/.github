@@ -2,7 +2,7 @@ name: Bug
 description: Bug
 title: "[Bug]: "
 type: 'Bug'
-projects: ["JakubMuzikOrg/3"]
+projects: ["JakubMuzikOrg/2"]
 
 body:
   - type: markdown
