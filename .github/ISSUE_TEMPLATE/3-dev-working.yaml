@@ -1,10 +1,17 @@
-name: Feature
-description: New feature
-title: "[Feature]: "
-type: 'Feature'
-projects: ["JakubMuzikOrg/3"]
+name: Dev working
+description: New Dev task
+title: "[Dev]: "
+type: 'Dev'
+projects: ["JakubMuzikOrg/2"]
 
 body:
+- type: input
+  id: products
+  attributes:
+    label: Product(s)
+    placeholder: "Affected product or prooducts"
+  validations:
+    required: false
   - type: markdown
     attributes:
       value: |
