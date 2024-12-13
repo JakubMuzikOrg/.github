@@ -44,21 +44,7 @@ body:
     id: qa-info
     attributes:
       label: Description
-      value:
-        Description, steps to reproduce
-        
-        
-        
-        
-        App – App info and build
-
-        
-        BE – DB changes and migration guideline  
-
-        
-        BE – Endpoint changes and migration guideline
-
-        
+      placeholder: "For BE tasks, please add: DB changes (table, column, …) and migration guidelines; Endpoint changes and migration guidelines; For FE/App tasks, please add build and App info."
     validations:
       required: false
       
