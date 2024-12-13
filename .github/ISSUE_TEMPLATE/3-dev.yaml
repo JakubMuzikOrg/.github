@@ -15,7 +15,6 @@ body:
         - External bug
         - Internal request
         - Internal bug
-      default: 0
     validations:
       required: true
 
