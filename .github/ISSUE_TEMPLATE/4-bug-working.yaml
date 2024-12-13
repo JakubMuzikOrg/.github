@@ -1,63 +1,53 @@
 name: Bug working
-description: Bug
+description: New Bug
 title: "[Bug]: "
 type: 'Bug'
-projects: ["JakubMuzikOrg/3"]
+projects: ["JakubMuzikOrg/2"]
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
+
   - type: input
-    id: contact
+    id: product-version
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Affected product and version
+      placeholder: "Affected product and version"
     validations:
       required: false
-  - type: textarea
-    id: what-happened
+      
+  - type: input
+    id: environment
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Environment
+      placeholder: "Environment"
     validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      required: false
+      
   - type: textarea
-    id: logs
+    id: qa-info
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
+      label: Description
+      value:
+        Description of the issue
+        
+        
+        
+        
+        App – App info and build
+
+        
+        BE – DB changes and migration guideline  
+
+        
+        BE – Endpoint changes and migration guideline
+
+        
+    validations:
+      required: false
+
+  - type: textarea
+    id: acceptance-criteria
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: Acceptance criteria
+      placeholder: Add acceptance criteria..
+    validations:
+      required: false
