@@ -1,6 +1,6 @@
-name: Feature
-description: New feature
-title: "[Feature]: "
+name: Dev
+description: Dev task
+title: "[Dev]: "
 type: 'Feature'
 projects: ["JakubMuzikOrg/2"]
 
