@@ -11,9 +11,9 @@ body:
     attributes:
       label: Origin
       options:
-        - Requested feature
-        - Reported bug
-        - Proposed feature
+        - External request
+        - External bug
+        - Internal request
         - Internal bug
       default: 0
     validations:
