@@ -11,10 +11,8 @@ body:
     attributes:
       label: Origin
       options:
-        - External request
-        - External bug
-        - Internal request
-        - Internal bug
+        - External      
+        - Internal
     validations:
       required: true
 
