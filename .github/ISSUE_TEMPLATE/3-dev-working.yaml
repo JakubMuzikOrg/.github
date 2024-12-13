@@ -9,7 +9,7 @@ body:
   - type: input
     id: products-versions
     attributes:
-      label: Product(s) and version(s)
+      label: Affected product(s) and version(s)
       placeholder: "Affected product(s) and version(s)"
     validations:
       required: false
@@ -18,7 +18,7 @@ body:
     id: specification
     attributes:
       label: Specification
-      placeholder: Feature description, technical specification..
+      placeholder: Feature description, technical specification, attachments..
     validations:
       required: false
 
@@ -28,13 +28,15 @@ body:
       label: QA info
       value:
         App
-        
+        ---
+        App info and build
         
         BE
-        - [ ] DB changes
-        Affected table, column, migration guideline
-        - [ ] Endpoint changes
-        Affected Endpoint, migration guideline
+        ---
+        DB changes and migration guideline
+                
+        Endpoint changes and migration guideline
+        
     validations:
       required: false
 
