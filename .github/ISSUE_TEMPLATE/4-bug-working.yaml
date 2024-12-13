@@ -6,11 +6,29 @@ projects: ["JakubMuzikOrg/2"]
 
 body:
 
-  - type: input
-    id: product-version
+  - type: dropdown
+    id: origin
     attributes:
-      label: Affected product and version
-      placeholder: "Affected product and version"
+      label: Origin
+      options:
+        - External bug
+        - Internal bug
+      validations:
+      required: true
+
+  - type: input
+    id: products-versions
+    attributes:
+      label: Affected product(s) and version(s)
+      placeholder: "Affected product(s) and version(s)"
+    validations:
+      required: false
+
+  - type: input
+    id: target-products-versions
+    attributes:
+      label: Target product(s) and version(s)
+      placeholder: "Target product(s) and version(s)"
     validations:
       required: false
       
