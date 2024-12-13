@@ -13,6 +13,14 @@ body:
       placeholder: "Affected product(s) and version(s)"
     validations:
       required: false
+
+  - type: input
+    id: target-products-versions
+    attributes:
+      label: Target product(s) and version(s)
+      placeholder: "Target product(s) and version(s)"
+    validations:
+      required: false
       
   - type: textarea
     id: specification
