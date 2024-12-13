@@ -23,17 +23,25 @@ body:
       required: false
 
   - type: textarea
-    id: acceptance-criteria
+    id: qa-info
     attributes:
-      label: Acceptance criteria
-      placeholder: Add acceptance criteria..
+      label: QA info
+      value:
+        App
+        
+        
+        BE
+        - [ ] DB changes
+        Affected table, column, migration guideline
+        - [ ] Endpoint changes
+        Affected Endpoint, migration guideline
     validations:
       required: false
 
   - type: textarea
-    id: qa-info
+    id: acceptance-criteria
     attributes:
-      label: QA info
+      label: Acceptance criteria
       placeholder: Add acceptance criteria..
     validations:
       required: false
