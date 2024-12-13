@@ -27,7 +27,7 @@ body:
     attributes:
       label: Description
       value:
-        Description of the issue
+        Description, steps to reproduce
         
         
         
