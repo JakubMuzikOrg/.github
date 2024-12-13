@@ -5,13 +5,13 @@ type: 'Dev'
 projects: ["JakubMuzikOrg/2"]
 
 body:
-- type: input
-  id: products
-  attributes:
-    label: Product(s)
-    placeholder: "Affected product or prooducts"
-  validations:
-    required: false
+ - type: input
+   id: products
+   attributes:
+     label: Product(s)
+     placeholder: "Affected product or prooducts"
+   validations:
+     required: false
     
   - type: markdown
     attributes:
