@@ -1,7 +1,7 @@
 name: Dev
 description: Dev task
 title: "[Dev]: "
-type: 'Feature'
+type: 'Dev'
 projects: ["JakubMuzikOrg/2"]
 
 body:
