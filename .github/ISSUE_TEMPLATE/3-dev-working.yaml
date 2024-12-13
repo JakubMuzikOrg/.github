@@ -6,6 +6,19 @@ projects: ["JakubMuzikOrg/2"]
 
 body:
 
+  - type: dropdown
+    id: origin
+    attributes:
+      label: Origin
+      options:
+        - Requested feature
+        - Reported bug
+        - Proposed feature
+        - Internal bug
+      default: 0
+    validations:
+      required: true
+
   - type: input
     id: products-versions
     attributes:
