@@ -27,7 +27,7 @@ body:
     attributes:
       label: QA info
       value:
-        App – App info and build  
+        App – App info and build\n
         
         BE – DB changes and migration guideline  
                 
