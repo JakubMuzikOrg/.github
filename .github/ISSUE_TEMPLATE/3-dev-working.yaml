@@ -12,6 +12,7 @@ body:
     placeholder: "Affected product or prooducts"
   validations:
     required: false
+    
   - type: markdown
     attributes:
       value: |
