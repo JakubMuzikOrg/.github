@@ -6,30 +6,6 @@ projects: ["JakubMuzikOrg/2"]
 
 body:
 
-  - type: input
-    id: owner-origin
-    attributes:
-      label: Owner / origin
-      placeholder: "Owner and / or origin info"
-    validations:
-      required: true
-
-  - type: input
-    id: products-versions
-    attributes:
-      label: Affected product(s) and version(s)
-      placeholder: "Affected product(s) and version(s)"
-    validations:
-      required: false
-
-  - type: input
-    id: target-products-versions
-    attributes:
-      label: Target product(s) and version(s)
-      placeholder: "Target product(s) and version(s)"
-    validations:
-      required: false
-      
   - type: textarea
     id: specification
     attributes:
