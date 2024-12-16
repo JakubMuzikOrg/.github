@@ -6,13 +6,11 @@ projects: ["JakubMuzikOrg/2"]
 
 body:
 
-  - type: dropdown
-    id: origin
+  - type: input
+    id: owner-origin
     attributes:
-      label: Origin
-      options:
-        - External      
-        - Internal
+      label: Owner / origin
+      placeholder: "Owner and / or origin info"
     validations:
       required: true
 
