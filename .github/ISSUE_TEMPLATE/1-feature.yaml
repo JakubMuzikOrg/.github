@@ -10,7 +10,7 @@ body:
     id: feature-description
     attributes:
       label: Description
-      placeholder: Add description..
+      placeholder: "Add description.."
     validations:
       required: false
 
@@ -18,7 +18,7 @@ body:
     id: feature-acceptance-criteria
     attributes:
       label: Acceptance criteria
-      placeholder: Add acceptance criteria..
+      placeholder: "Add acceptance criteria.."
     validations:
       required: false
 
@@ -26,7 +26,7 @@ body:
     id: feature-technical-specification
     attributes:
       label: Technical specification
-      placeholder: Add technical specification..
+      placeholder: "Add technical specification.."
     validations:
       required: false
 
