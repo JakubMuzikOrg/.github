@@ -7,15 +7,7 @@ projects: ["JakubMuzikOrg/2"]
 body:
 
   - type: input
-    id: owner-origin
-    attributes:
-      label: Owner / origin
-      placeholder: "Owner and / or origin info"
-    validations:
-      required: true
-
-  - type: input
-    id: products-versions
+    id: bug-affected-products
     attributes:
       label: Affected product(s) and version(s)
       placeholder: "Affected product(s) and version(s)"
@@ -23,26 +15,26 @@ body:
       required: false
 
   - type: input
-    id: target-products-versions
-    attributes:
-      label: Target product(s) and version(s)
-      placeholder: "Target product(s) and version(s)"
-    validations:
-      required: false
-      
-  - type: input
     id: environment
     attributes:
       label: Environment
       placeholder: "Environment"
     validations:
       required: false
-      
+  
   - type: textarea
-    id: qa-info
+    id: bug-reproduced-result
     attributes:
-      label: Description
-      placeholder: "For BE tasks, please add: DB changes (table, column, …) and migration guidelines; Endpoint changes and migration guidelines; For FE/App tasks, please add build and App info."
+      label: Steps to reproduce and current result
+      placeholder: "Steps to reproduce, current result.."
+    validations:
+      required: false
+   
+  - type: textarea
+    id: bug-expected-result
+    attributes:
+      label: Expected result / acceptance criteria
+      placeholder: "Expected result, acceptance criteria.."
     validations:
       required: false
       
@@ -50,14 +42,22 @@ body:
     id: log-output
     attributes:
       label: Log output
-      placeholder: Add logs..
+      placeholder: "Log snippets.."
     validations:
       required: false
       
   - type: textarea
-    id: acceptance-criteria
+    id: bug-qa-specification
     attributes:
-      label: Acceptance criteria
-      placeholder: Add acceptance criteria..
+      label: QA specification
+      placeholder: "For BE tasks, please add: DB changes (table, column, …) and migration guidelines; Endpoint changes and migration guidelines; For FE/App tasks, please add build and App info."
+    validations:
+      required: false
+
+  - type: input
+    id: jira-issue-code
+    attributes:
+      label: JIRA issue code
+      placeholder: "Add JIRA issue code as text"
     validations:
       required: false
