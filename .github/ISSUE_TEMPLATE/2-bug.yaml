@@ -23,21 +23,13 @@ body:
       required: false
   
   - type: textarea
-    id: bug-reproduced-result
+    id: bug-steps-result-current-expected
     attributes:
-      label: Steps to reproduce and current result
-      placeholder: "Steps to reproduce, current result.."
+      label: Steps to reproduce, current result, expected result
+      placeholder: "Steps to reproduce, current result, expected result.."
     validations:
       required: false
    
-  - type: textarea
-    id: bug-expected-result
-    attributes:
-      label: Expected result / acceptance criteria
-      placeholder: "Expected result, acceptance criteria.."
-    validations:
-      required: false
-      
   - type: textarea
     id: log-output
     attributes:
@@ -46,14 +38,6 @@ body:
     validations:
       required: false
       
-  - type: textarea
-    id: bug-qa-specification
-    attributes:
-      label: QA specification for re-test
-      placeholder: "For BE tasks, please add: DB changes (table, column, …) and migration guidelines; Endpoint changes and migration guidelines; For FE/App tasks, please add build and App info."
-    validations:
-      required: false
-
   - type: input
     id: jira-issue-code
     attributes:
