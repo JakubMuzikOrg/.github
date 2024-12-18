@@ -2,7 +2,7 @@ name: Task
 description: Generic task
 title: "[Task]: "
 type: 'Task'
-projects: ["JakubMuzikOrg/2"]
+projects: ["wultra/43"]
 
 body:
   - type: textarea
