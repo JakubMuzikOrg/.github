@@ -49,7 +49,7 @@ body:
   - type: textarea
     id: bug-qa-specification
     attributes:
-      label: QA specification
+      label: QA specification for re-test
       placeholder: "For BE tasks, please add: DB changes (table, column, …) and migration guidelines; Endpoint changes and migration guidelines; For FE/App tasks, please add build and App info."
     validations:
       required: false
