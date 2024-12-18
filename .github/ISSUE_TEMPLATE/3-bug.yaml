@@ -2,7 +2,7 @@ name: Bug
 description: New Bug
 title: "[Bug]: "
 type: 'Bug'
-projects: ["JakubMuzikOrg/2"]
+projects: ["wultra/43"]
 
 body:
 
