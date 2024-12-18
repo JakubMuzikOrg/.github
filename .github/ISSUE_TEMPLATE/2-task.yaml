@@ -1,5 +1,5 @@
 name: Task
-description: Generic task
+description: Task
 title: "[Task]: "
 type: 'Task'
 projects: ["wultra/43"]
