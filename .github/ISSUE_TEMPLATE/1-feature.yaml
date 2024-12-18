@@ -1,8 +1,8 @@
 name: Feature
 description: New feature
-title: "[Dev]: "
+title: "[Feature]: "
 type: 'Feature'
-projects: ["JakubMuzikOrg/2"]
+projects: ["wultra/43"]
 
 body:
 
